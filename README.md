@@ -21,11 +21,13 @@ To run Scholiast, you have to use Firefox Web Driver (default used driver). You 
 
 ## Usage
 
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
 - As environment variables, you have to define `IGUSER` as your Instagram username and `PASSWORD` as your Instagram password.
 
-- In your Scholiast call, you have to provide the comments to be done in a tuple, the post url and the time interval.
+- In your Scholiast call, you have to provide the comments to be done in a tuple of strings, the post url and the time interval in minutes.
 
 Check the example bellow to understand how to pass them.
 
@@ -45,7 +47,7 @@ comments = (
 # Post URL - the post must be visible to your account
 POST_URL = 'https://www.instagram.com/p/<:id>/'
 
-# Scholiast will get a random value within the range (min, max) 
+# Scholiast will get a random value within the range (min, max) in minutes
 TIME_INTERVAL = (10, 12)
 
 # When the flag is true, the comment is not sent indeed 
