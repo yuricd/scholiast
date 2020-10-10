@@ -1,4 +1,12 @@
 # Scholiast
+
+<p align="center">
+  <a href="https://yuridelgado.dev">
+    <img alt="Scholiast" src="./assets/scholiast-preview.png">
+  </a>
+</p>
+
+
 That's a comment bot for Instagram using Selenium Web Driver.
 **Notice:** this repository is for studying purposes only. Be aware of the Instagram's terms of use and their policies.
 
