@@ -7,7 +7,7 @@ comments = (
   'adipiscing elit',
 )
 
-POST_URL = 'https://www.instagram.com/p/B0MIMm5nX0N/'
+POST_URL = 'https://www.instagram.com/p/<:id>/'
 TIME_INTERVAL = (10, 12)
 TEST=False
 
