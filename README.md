@@ -9,7 +9,7 @@ Scholiast was built to perform a set of comments sequentially in a random custom
 
 Currently, Scholiast is resilient when it comes to denied reponses. If a comment request is not successfully done, the script waits, by default, 30min to follow the remaining comment list. Otherwise, comments keep going sequentially within the defined time range.
 
-To run Scholiast, you have to use Firefox Web Driver. You can use the provided one you replace it for another driver or version of your preference in the [Mozilla Offical Repo for Geckodriver](https://github.com/mozilla/geckodriver/releases).
+To run Scholiast, you have to use Firefox Web Driver (default used driver). You can take a version of your preference in the [Mozilla Offical Repo for Geckodriver](https://github.com/mozilla/geckodriver/releases). Make sure you have Mozilla Firefox installed in your machine.
 
 ## Usage
 
