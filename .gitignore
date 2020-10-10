@@ -1,0 +1,8 @@
+*/.env
+.vscode/
+env/
+__pycache__
+build/
+dist/
+*.log
+*.spec
