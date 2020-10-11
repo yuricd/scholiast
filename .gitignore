@@ -4,5 +4,6 @@ env/
 __pycache__
 build/
 dist/
+geckodriver
 *.log
 *.spec

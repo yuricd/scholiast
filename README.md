@@ -17,15 +17,19 @@ Scholiast was built to perform a set of comments sequentially in a random custom
 
 Currently, Scholiast is resilient when it comes to denied reponses. If a comment request is not successfully done, the script waits, by default, 30min to follow the remaining comment list. Otherwise, comments keep going sequentially within the defined time range.
 
-To run Scholiast, you have to use Firefox Web Driver (default used driver). You can take a version of your preference in the [Mozilla Offical Repo for Geckodriver](https://github.com/mozilla/geckodriver/releases). Make sure you have Mozilla Firefox installed in your machine.
+Your Instagram account cannot have 2FA activated to run Scholiast.
 
 ## Usage
 
+To run Scholiast, you have to use Firefox Web Driver (default used driver). You can take a version of your preference in the [Mozilla Offical Repo for Geckodriver](https://github.com/mozilla/geckodriver/releases) and add the binary in the root folder of the application. Make sure you have Mozilla Firefox installed in your machine.
+
+Make sure you have `pipenv` available to use in your terminal. You can check the documentation [here](https://pipenv-fork.readthedocs.io/en/latest/basics.html).
+
 ```bash
-pip install -r requirements.txt
+pipenv install
 ```
 
-- As environment variables, you have to define `IGUSER` as your Instagram username and `PASSWORD` as your Instagram password.
+- As environment variables, you have to define `IGUSER` as your Instagram username and `PASSWORD` as your Instagram password in a `.env` file within `app/lib/`.
 
 - In your Scholiast call, you have to provide the comments to be done in a tuple of strings, the post url and the time interval in minutes.
 
